@@ -1,10 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
+import Header from "../components/header"
 
 export default function Home() {
   return (
     <div>
-      <h1>Gatsby Project</h1>
+      <Header title="Gatsby Project" />
       <Link to="other">Other Page</Link>
       <br />
       <a href="https://www.youtube.com">Go Away</a>
